@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Hero section */
+.hero {
+  background:url('images/15442020_5590457.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.wrap{
+    padding: 20px;
+}
+
+.container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+  font-size: 16px;
+  background-color: #2196F3;
+  color: white;
+  padding: 12px 24px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1976D2;
+}
+
+/* Table */
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #e0f0ff;
+}
+
+/* Add the appropriate focus states for the form elements */
+form input:focus, form select:focus, form textarea:focus {
+  border-color: #2196F3;
+  outline: none;
+  box-shadow: 0 0 3px rgba(33, 150, 243, 0.5);
+}

@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  padding-top: 70px; /* Space for fixed nav */
+}
+
+/* Navigation bar */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 20px 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #82b7ec;
+}
+
+
+/* Main heading */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Blog posts */
+.blog-post {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+}
+
+.blog-post h2 {
+  color: #2c3e50;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.blog-post p {
+  color: #333;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
